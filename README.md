@@ -8,6 +8,13 @@ You can play this game by using arrow key. Or you can let it play by itself whic
 auto mode. I implemented a backtrack algorithm to help the character escape from the
 monster
 
+BackTrack Algorithm
+==================
+
+The character will check every spot which he never been to. If he stuck he will go 
+back to the last spot which there is one or more way to go. Otherwise he never escape,
+and the monster will eat him !!!
+
 Sample Output
 =============
 
